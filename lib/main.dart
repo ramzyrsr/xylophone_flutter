@@ -17,7 +17,7 @@ class XylophoneApp extends StatelessWidget {
     }
 
     Expanded buildKey(int id) {
-      var color;
+      Color color;
 
       switch (id) {
         case 1:
@@ -42,6 +42,7 @@ class XylophoneApp extends StatelessWidget {
           color = Colors.purple;
           break;
         default:
+        color = Colors.black;
       }
 
       return Expanded(
